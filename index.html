@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coffee Sudoku X – Engineering Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>☕ Coffee Sudoku X ☕</h1>
+<p>Rows, Columns, 3×3 blocks & diagonals must be unique</p>
+
+<div class="top">
+  <span id="timer">Time: 0s</span>
+  <span id="hints">Hints Left: 3</span>
+</div>
+
+<div id="grid"></div>
+
+<button onclick="check()">Validate Logic</button>
+<button onclick="hint()">Use Hint (-30s)</button>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
