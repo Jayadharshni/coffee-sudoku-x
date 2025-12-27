@@ -1,0 +1,39 @@
+body {
+  background: #121212;
+  color: #eee;
+  font-family: Arial;
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(9, 45px);
+  gap: 4px;
+  margin: 20px auto;
+  width: 420px;
+}
+
+input {
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+input:disabled {
+  background: #333;
+  color: #ffcc80;
+  font-weight: bold;
+}
+
+.top span {
+  margin: 10px;
+  color: #ffcc80;
+}
+
+#result {
+  white-space: pre-line;
+  margin-top: 15px;
+  font-size: 16px;
+}
